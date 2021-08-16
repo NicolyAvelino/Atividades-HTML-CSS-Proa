@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to bottom right, #da138d, #5144a5);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 0px 0 10px 0;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family:cursive; 
+}
+
+form table {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto 150px;
+    background-color: white;
+    border-radius: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px 0 170px;
+  
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555555;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    width: 70%;
+    padding: 10px ;
+    margin: 20px 0 20px 0;
+    background-color: #da138d;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    
+    font-size: 16px;
+    cursor: pointer;  
+}
+.enviar{
+    padding: 40px  0 40px 0;
+}
+input[type=radio] {
+    margin-top: 15px;
+}
+label {
+    margin: 8px 0;
+}
+select{
+    width: 70%;
+    padding: 15px 0 10px 0;
+    margin: 8px 0;
+}
+textarea{
+    width: 65%;
+    padding: 30px 20px;
+    margin: 8px 0;
+}
+p{
+    font-size: 16px;
+    margin: 20px 0 0 0;
+    width: 70%;
+}

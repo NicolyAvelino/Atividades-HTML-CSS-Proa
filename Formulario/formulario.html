@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+
+    <section>
+        <form>
+            <table border="0">
+                <tr>
+                    <td>
+                        <label for="name" class="name">
+                            <p>Digite seu nome </p>
+                        </label>
+                        <input id="name" name="name" required="required" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Qual você prefere?</p>
+                        <input type="radio" id="doce" name="comida" value="doce" checked>
+                        <label for="doce">Doce</label>
+    
+                        <input type="radio" id="salgado" name="comida" value="salgado">
+                        <label for="salgado">Salgado</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <p>Você prefere ter uma máquina do tempo que só volta no tempo ou uma máquina do tempo que só
+                                avança no tempo?</p>
+                        </label>
+    
+                        <select name='ler'>
+                            <option value='0' disabled>Selecione</option>
+                            <option value='1'>Só volta no tempo</option>
+                            <option value='2'>Só avança no tempo</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <p>Quais são suas séries/filmes preferidos?</p>
+                        </label>
+                        <textarea id='texto' name='texto' placeholder='Coloque quantos quiser'></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="definir" class="definir">
+                            <p> Defina o seu dia em apenas uma palavra? </p>
+                        </label>
+                        <input id="definir" name="definir" required="required" type="text" placeholder="Ex: Maravilhoso" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <p>Qual foi a sua última pesquisa no Google?</p>
+                        </label>
+                        <textarea id='texto' name='texto'></textarea>
+                    </td>
+                </tr>
+                <tr class="astronautas">
+                    <td>
+                        <p>Astronautas dizem que a partir do espaço os rios parecem o sistema circulatório de um organismo
+                            vivo. Coincidência ou não, durante a Segunda Guerra Mundia, os médicos usaram essa água ao invés
+                            de plasma sanguíneo. Que tipo de água foi usada?</p>
+                        <input type="radio" id="aguaDoce" name="comida" value="aguaDoce" checked>
+                        <label for="aguaDoce">Água doce</label>
+                        <input type="radio" id="aguaSalgada" name="comida" value="aguaSalgada">
+                        <label for="aguaSalgada">Água salgada</label>
+                        <input type="radio" id="aguaPotavel" name="comida" value="aguaPotavel">
+                        <label for="aguaPotavel">Água potável</label>
+                        <input type="radio" id="aguaDestilada" name="comida" value="aguaDestilada">
+                        <label for="aguaDestilada">Água destilada</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="enviar">
+                        <input type="submit" value="Enviar formulário">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</body>
+
+</html>
