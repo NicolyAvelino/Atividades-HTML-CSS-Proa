@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  background: #000;
+  padding: 40px;
+}
+header h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+section {
+  width: 100%;
+  max-width: 900px;
+  margin: 10px auto;
+}
+.container {
+  display: flex;
+}
+.container img{
+  width: 550px;
+  height: 350px;
+}
+.dados {
+  padding: 30px;
+}
+#descricao {
+  text-align: justify;
+}
+@media screen and (max-width: 600px) {
+  .container{
+    display: block;
+  }
+  .container img{
+    width: 450px;
+    height: 400px;
+    margin-left: 15px;
+  }
+  .dados p{
+    width: 400px;
+  }
+}
