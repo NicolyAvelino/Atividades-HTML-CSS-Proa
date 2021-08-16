@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: red;
+  padding: 40px;
+}
+header h1 {
+  font-size: 60px;
+  font-weight: 50px;
+}
+section {
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+}
+section h1 {
+  font-size: 50px;
+}
+@media screen and (max-width: 600px) {
+  section {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+  }
+  section h1 {
+    font-size: 40px;
+  }
+  #tacos{
+      width: 400px;
+  }
+  section h2 ol li {
+    max-width: 400px;
+  }
+}

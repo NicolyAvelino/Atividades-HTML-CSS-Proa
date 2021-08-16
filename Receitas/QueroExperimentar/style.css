@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: red;
+  padding: 40px;
+}
+header h1 {
+  font-size: 60px;
+  font-weight: 50px;
+}
+section {
+  padding: 15px;
+  width: 600px;
+  margin: auto;
+}
+section h1 {
+  font-size: 45px;
+}
+#boloCorte {
+  width: 600px;
+}
+#boloOpera {
+  width: 590px;
+}
+@media screen and (max-width: 600px) {
+  section {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+  }
+  section h1 {
+    font-size: 40px;
+  }
+  #boloOpera {
+    width: 400px;
+    text-align: center;
+  }
+  #boloCorte {
+    width: 400px;
+    align-items: center;
+  }
+  section ol li {
+    max-width: 400px;
+  }
+}
