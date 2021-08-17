@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  background: url("img/pexels-negative-space-97077.jpg");
+  width: 100%;
+  max-width: 1265px;
+  height: 40%;
+  min-height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+header .header {
+  background: rgba(15, 16, 24, 0.85);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+header .texto {
+  margin: 200px 0 0 50px;
+}
+.texto h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+}
+table {
+  margin: 15px auto;
+  width: 100%;
+  max-width: 800px;
+}
+table tr td img {
+  padding: 5px;
+}
+
+.horizontal img {
+  width: 300px;
+  height: 200px;
+}
+.horizontal video {
+  width: 300px;
+  height: 200px;
+}
+@media screen and (max-width: 600px) {
+  table tr td {
+    display: block;
+    text-align: center;
+  }
+  .horizontal img {
+    width: 450px;
+    height: 300px;
+  }
+  .horizontal video {
+    width: 450px;
+    height: 300px;
+  }
+  .texto h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
