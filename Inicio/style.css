@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#titulo{
+    font-family: 'Style Script', cursive;
+    font-size: 24px;
+    padding: 5px;
+    font-weight: 200;
+}
+#subtitulo{
+    font-family: 'Style Script', cursive;
+    font-size: 25px;
+}
+header {
+  background: #010116;
+  padding: 20px;
+}
+header h1 {
+  font-size: 70px;
+  font-weight: 500;
+  font-family: 'Style Script', cursive;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+}
+.container {
+  display: flex;
+}
+.container, .dados{
+    align-items: center;
+}
+.dados{
+    padding: 30px;
+}
+.container img {
+  width: 190px;
+}
+.container p {
+  text-align: justify;
+}
+
+.titulo{
+    background: #010116 ;
+    padding: 0;
+    margin-top: 20px;
+    color: white;
+}
+.curiosidades .texto{
+    display : flex;
+}
+.curiosidades .texto p{
+    text-align: justify;
+    margin: 10px;
+}
+.admiro .texto {
+    display: flex;
+}
+#aln{
+    margin: 10px;
+}
+.caixa {
+    display: flex;
+}
+.queroProvar{
+   margin-left: 40px;
+}
