@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background: url("img/futuro2.jpg");
+  width: 100%;
+  max-width: 1265px;
+  height: 40%;
+  min-height: 550px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+header .header {
+  background: rgba(15, 16, 24, 0.88);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+header .texto {
+  margin: 200px 0 0 50px;
+}
+.texto h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+}
+section {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 550px;
+ 
+}
+section h1,
+p {
+  margin: 30px 0px 30px 0px;
+}
+section video {
+  width: 560px;
+  height: 315px;
+}
+@media screen and (max-width: 650px) {
+  header h1 {
+    text-align: center;
+  }
+  section {
+    width: 100%;
+    max-width: 600px;
+  }
+  section video {
+    width: 430px;
+    height: 300px;
+  }
+  .conteudo {
+    margin: 0px 10px 50px 30px;
+  }
+}
