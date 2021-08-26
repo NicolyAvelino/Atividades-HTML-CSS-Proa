@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* GREEN----------------------------------------------------------------*/
+.aln-green {
+    background: rgb(119, 216, 119);
+    height: 20vh;
+}
+.green{
+    padding: 40px;
+}
+/* YELLOW ------------------------------------------------*/
+.aln-yellow{
+    background: rgb(245, 245, 146);
+    width: 31vw;
+    height: 55vh;
+    align-items: center;
+}
+.aln-yellow .yellow{
+    padding: 30px;
+}
+
+/* CONTEUDOS----------------------------------------------------------------*/
+.conteudos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 25vw;
+    margin: 30px auto;
+}
+.conteudo{
+    width: 8vw;
+    height: 10vh;
+    background: #fff;
+    margin: 10px 10px 10px 10px;
+}
+.conteudo span{
+    padding: 20px;
+}
+.titulo h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* RED----------------------------------------------------------------*/
+.aln-red {
+    background: rgb(241, 102, 102);
+    width: 31vw;
+    height: 55vh; 
+}
+.aln-red .red{
+    padding: 30px;
+}
+/* BLUE----------------------------------------------------------------*/
+.aln-blue {
+    background: rgb(62, 143, 209);
+    width: 31vw;
+    height: 86vh;   
+}
+.aln-blue .blue{
+    padding: 30px;
+}
+/* ORANGE----------------------------------------------------------------*/
+.aln-orange {
+    background: rgb(245, 191, 92);
+    width: 65vw;
+    height: 25.5vh;
+    position:absolute;
+    margin: 350px 0 0 0;
+}
+.aln-orange .orange{
+    padding: 50px;
+}
+/* ALIGN----------------------------------------------------------------*/
+.alinhamento{
+    display: flex;
+    flex-wrap: wrap;
+}
+.alinhamento, .yellow ,.red, .blue {
+    justify-content: space-between;
+    margin-top: 30px;
+}
