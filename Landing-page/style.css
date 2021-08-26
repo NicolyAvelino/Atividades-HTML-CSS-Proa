@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* HEADER ---------------------------------------------------------------- */
+header {
+    background: #190059;
+}
+header img {
+    width: 35vw;
+}
+header .text {
+    width: 550px;
+}
+header .text span {
+    color: white;
+    display: block;
+    font-size: 55px;
+    font-weight: 700;
+}
+header .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+/* LANDING ---------------------------------------------------------------- */
+section .landing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+}
+
+.landing .text {
+    max-width: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing .text span {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.landing .text p {
+    font-size: 15px;
+}
+
+.landing img {
+    width: 35vw;
+}
+
+/* UTILIDADE ---------------------------------------------------------------- */
+section .utilidade {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #885cf8;
+    flex-direction: row-reverse;
+}
+
+.utilidade .text {
+    max-width: 550px;
+}
+
+.utilidade .text span {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.utilidade .text p {
+    font-size: 15px;
+}
+
+.utilidade img {
+    width: 25vw;
+}
+
+/* NÉGOCIO ---------------------------------------------------------------- */
+section .negocio {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section .negocio .text,
+.text2 {
+    max-width: 550px;
+}
+
+section .negocio .text p {
+    font-size: 15px;
+}
+
+.negocio .text span {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.negocio .text span,
+p {
+    margin-top: 30px;
+}
+
+.negocio .text2 p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.negocio .text2 span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.negocio .text2 p,
+span {
+    margin: 10px;
+}
+
+/* FORM ---------------------------------------------------------------- */
+section .form {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #885cf8;
+}
+
+.form .cadastro {
+    max-width: 550px;
+}
+
+#txt-cadastro {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#txt2-cadastro {
+    font-size: 15px;
+}
+
+.form form span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form input[type="text"],
+input[type="email"] {
+    border-radius: 10px;
+    padding: 10px;
+    width: 20vw;
+    margin: 10px 0 0px 0;
+    font-size: 15px;
+    border: 0;
+}
+
+form input[type="button"] {
+    padding: 10px;
+    width: 21vw;
+    margin: 15px 0 0px 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+
+input[type="button"]:hover {
+    background-color: #bba4f8;
+    transition: all 0.2s;
+}
+
+.form img {
+    width: 30vw;
+}
+
+/* PESSOAS ---------------------------------------------------------------- */
+section .pessoas {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.pessoas .text {
+    max-width: 300px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.pessoas img {
+    width: 7vw;
+}
+
+/* FOOTER ---------------------------------------------------------------- */
+footer {
+    background: #130b26;
+    padding: 40px;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo span {
+    color: white;
+    font-size: 35px;
+}
+footer .icon .fab {
+    color: white;
+    font-size: 35px;
+    margin: 5px;
+}
+footer a {
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    header .container {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+    header img {
+        margin-top: 60px;
+        width: 75vw;
+    }
+    header .text {
+        width: 450px;
+    }
+    header .text span {
+        font-size: 45px;
+    }
+    /* LANDING ---------------------------------------------------------------- */
+    section .landing {
+        display: block;
+        padding: 20px;
+    }
+    .landing .text {
+        max-width: 450px;
+    }
+    .landing .text span {
+        font-size: 40px;
+        text-align: center;
+    }
+    .landing .text p {
+        text-align: justify;
+    }
+    .landing img {
+        margin-top: 20px;
+        width: 65vw;
+    }
+    /* UTILIDADE ---------------------------------------------------------------- */
+    section .utilidade {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+    .utilidade .text {
+        max-width: 450px;
+    }
+    .utilidade .text span {
+        font-size: 40px;
+    }
+    .utilidade .text p {
+        font-size: 15px;
+    }
+    .utilidade img {
+        margin-top: 20px;
+        width: 45vw;
+    }
+    /* NÉGOCIO ---------------------------------------------------------------- */
+    section .negocio {
+        display: block;
+        padding: 20px;
+        height: 90vh;
+    }
+    section .negocio .text,
+    .text2 {
+        max-width: 450px;
+    }
+    section .negocio .text p {
+        font-size: 13px;
+    }
+    .negocio .text span {
+        font-size: 50px;
+    }
+    .negocio .text span,
+    p {
+        margin-top: 10px;
+    }
+    .negocio .text2 p,
+    span {
+        margin: 5px;
+    }
+    /* FORM ---------------------------------------------------------------- */
+    section .form {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        height: 90vh;
+    }
+    .form .cadastro {
+        max-width: 450px;
+    }
+    #txt-cadastro {
+        font-size: 40px;
+    }
+    form {
+        margin-top: 20px;
+    }
+    form input[type="text"],
+    input[type="email"] {
+        width: 50vw;
+    }
+    form input[type="button"] {
+        width: 54vw;
+    }
+    .form img {
+        margin-top: 25px;
+        width: 55vw;
+    }
+    /* PESSOAS ---------------------------------------------------------------- */
+    section .pessoas {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+    .pessoas .text {
+        max-width: 500px;
+        font-size: 12px;
+    }
+    .pessoas img {
+        width: 12vw;
+    }
+    /* FOOTER ---------------------------------------------------------------- */
+    footer {
+        padding: 40px;
+    }
+    footer .logo span {
+        color: white;
+        font-size: 30px;
+    }
+    footer .icon .fab {
+        font-size: 30px;
+    }
+}
