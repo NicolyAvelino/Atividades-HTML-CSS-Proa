@@ -1,11 +1,13 @@
-body {
-    background: linear-gradient(to bottom right, #da138d, #5144a5);
+*{
     padding: 0;
     margin: 0;
 }
-
+body{
+    background: linear-gradient(to bottom right, #da138d, #5144a5);
+}
 header {
-    padding: 0px 0 10px 0;
+    padding: 10px;
+    margin: 30px;
 }
 header h1{
     text-align: center;
@@ -13,30 +15,35 @@ header h1{
     color: white;
     font-family:cursive; 
 }
-
-form table {
-    width: 100%;
-    max-width: 850px;
-    margin: 0 auto 150px;
-    background-color: white;
+.aln label{
+    display: block;
+}
+div{
+    padding: 20px;
+    width: 37vw;
+    margin: 0 auto;
+}
+form{
+    background: #fff;
+    width: 60vw;
+    margin: 20px auto;
     border-radius: 14px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 20px 0px 0 170px;
-  
 }
-
 input[type=text] {
-    width: 70%;
+    width: 100%;
     padding: 10px 10px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 1px solid #555555;
+    border: 1px solid rgb(177, 172, 172);
     border-radius: 4px;
 }
-
+input[type=radio] {
+    margin: 2px;
+}
 input[type=submit]{
-    width: 70%;
-    padding: 10px ;
+    width: 100%;
+    padding: 10px;
     margin: 20px 0 20px 0;
     background-color: #da138d;
     color: white;
@@ -46,27 +53,26 @@ input[type=submit]{
     font-size: 16px;
     cursor: pointer;  
 }
-.enviar{
-    padding: 40px  0 40px 0;
-}
-input[type=radio] {
-    margin-top: 15px;
-}
-label {
-    margin: 8px 0;
-}
 select{
-    width: 70%;
+    width: 100%;
     padding: 15px 0 10px 0;
     margin: 8px 0;
 }
 textarea{
-    width: 65%;
+    width: 90%;
     padding: 30px 20px;
     margin: 8px 0;
 }
 p{
     font-size: 16px;
     margin: 20px 0 0 0;
-    width: 70%;
+    width: 100%;
+}
+@media screen and (max-width:750px) {
+    div{
+        width: 70vw;
+    }
+    form{
+        width: 85vw;    
+    }
 }
